@@ -13,4 +13,4 @@ playRound function: game rules. Rock > Scissors, Scissors > Paper, Paper > Rock
 
 game fucntion: call playrRound() under a loop to create 5 rounds game.
 
-project link: 
+project link: https://thanhtrucphan136.github.io/RockPaperScissors-/
