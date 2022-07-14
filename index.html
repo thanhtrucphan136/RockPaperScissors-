@@ -5,9 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-   <script src="script.js"></script>
+   <script src="script.js" defer></script>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Rock Paper Scissors</h1>
+        <h3>First To 5 Wins!</h3>
+    </header>
+    <div class="score-container">
+        <span class="player-score">You: 0</span>
+        <span class="computer-score">Computer: 0</span>
+    </div>
+    <div class="btn-container">
+        <div>
+            <input type="image" id="r-btn" class="btn" src="img/rock.png" width="153.5" height="299"/>
+            <p>rock</p>
+        </div>
+        <div>
+            <input type="image" id="p-btn" class="btn" src="img/paper.png" width="153.5" height="299"/>
+            <p>paper</p>
+        </div>
+        <div>
+            <input type="image" id="s-btn" class="btn" src="img/scissors.png" width="153.5" height="299"/>
+            <p>scissors</p>
+        </div>
+    </div>
+    <div class="result">choose your weapon!</div>
+    <div class="reset-container">
+        <button id="reset-btn">Play Again!?</button>
+    </div>
+    <div class="footer">
+       | Copyright &copy; Truc Phan | Art Copyright &copy; <a href="https://www.vecteezy.com/vector-art/693121-paw-sign-of-rock-paper-scissors-game" target="_blank">Vecteezy</a> |
+    </div>
 </body>
 </html>
