@@ -18,17 +18,17 @@ function playRound(playerSelection, computerSelection){
     let computer = computerSelection
 
     if (player === computer){
-        resultMess.textContent = "tie game!!";
+        resultMess.textContent = "it's a tieee!!";
     }
 
     if (player == "rock"){
         if (computer === "paper"){
-           resultMess.textContent = "You Lose! Paper beats Rock";
+           resultMess.textContent = ":( Paper beats Rock";
            computerScore +=1;
            computerDisplay.textContent = `Computer: ${computerScore}`;
         }
         if (computer === "scissors"){
-            resultMess.textContent = "You Win! Rock beats Scissors";
+            resultMess.textContent = "Naicee! Rock beats Scissors";
             playerScore +=1; 
             playerDisplay.textContent = `You: ${playerScore}`;
         }
@@ -36,12 +36,12 @@ function playRound(playerSelection, computerSelection){
 
     if (player === "paper"){
         if (computer === "rock"){
-            resultMess.textContent = "You Win! Paper beats Rock";
+            resultMess.textContent = "Good one! Paper beats Rock";
             playerScore +=1;
             playerDisplay.textContent = `You: ${playerScore}`;
         }
         if (computer === "scissors"){
-            resultMess.textContent = "You Lose! Scissors beat Paper";
+            resultMess.textContent = "Nice try but Scissors beat Paper";
             computerScore +=1;
             computerDisplay.textContent = `Computer: ${computerScore}`;
         }
@@ -49,12 +49,12 @@ function playRound(playerSelection, computerSelection){
 
     if (player === "scissors"){
         if (computer === "paper"){
-            resultMess.textContent = "You Win! Scissors beat Paper";
+            resultMess.textContent = "Yayyy! Scissors beat Paper";
             playerScore +=1;
             playerDisplay.textContent = `You: ${playerScore}`;
         }
         if (computer === "rock"){
-            resultMess.textContent = "You Lose! Rock beats Scissors";
+            resultMess.textContent = "Opss! Rock beats Scissors";
             computerScore +=1;
             computerDisplay.textContent = `Computer: ${computerScore}`;
         }
