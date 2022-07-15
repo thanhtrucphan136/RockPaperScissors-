@@ -1,4 +1,9 @@
 #RockPaperScissors
+project link: https://thanhtrucphan136.github.io/RockPaperScissors-/
+07/14/2022
+Create UI for the game
+Add and Change some functions in JS
+
 07/11/2022
 Create Rock Paper Scissors game using only JavaScript.
 
@@ -13,4 +18,4 @@ playRound function: game rules. Rock > Scissors, Scissors > Paper, Paper > Rock
 
 game fucntion: call playrRound() under a loop to create 5 rounds game.
 
-project link: https://thanhtrucphan136.github.io/RockPaperScissors-/
+
