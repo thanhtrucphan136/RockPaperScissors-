@@ -78,6 +78,7 @@ function reset(){
     playerScore = 0;
     playerDisplay.textContent = `You: ${playerScore}`;
     computerDisplay.textContent = `Computer: ${computerScore}`;
+    resultMess.textContent = "let's choose your weapon wisely this time :>"
     enableButtons();
 }
 
